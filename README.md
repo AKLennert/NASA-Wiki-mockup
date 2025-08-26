@@ -1,6 +1,6 @@
 # OI 244 Practical Assignment Three
-- Student Number:
-- Practical Group:
+- Student Number: 27030253
+- Practical Group: 1
 - Total Marks Available: 50
 
 ## Assignment Instructions
