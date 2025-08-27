@@ -32,6 +32,9 @@ nav a {
   padding: 10px;
   font-size: 14px;
   height: fit-content;
+
+  position: sticky; /* Make the panel stay at the top when scrolling*/
+  top: 20px; /*to adjust for the padding on the body*/
 }
 
 .contents-panel h2 {
@@ -128,4 +131,12 @@ h2 {
   background-color: lightgray;
   padding: 5px;
   text-align: center;
+}
+
+.hyperlink {
+  color: #3366cc;
+  text-decoration: none;
+}
+.hyperlink:hover {
+  text-decoration: underline;
 }
