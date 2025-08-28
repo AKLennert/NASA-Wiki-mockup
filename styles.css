@@ -47,11 +47,6 @@ header {
   margin-bottom: 10px;
 }
 
-.contents-panel a {
-  color: #3366cc;
-  text-decoration: none;
-}
-
 .content {
   flex: 1;
   padding: 20px;
@@ -82,15 +77,6 @@ header {
 
 .info-panel li {
   margin-bottom: 10px;
-}
-
-.info-panel a {
-  color: #3366cc;
-  text-decoration: none;
-}
-
-.info-panel a:hover {
-  text-decoration: underline;
 }
 
 h1 {
