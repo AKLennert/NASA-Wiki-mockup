@@ -52,10 +52,6 @@ header {
   text-decoration: none;
 }
 
-.contents-panel a:hover {
-  text-decoration: underline;
-}
-
 .content {
   flex: 1;
   padding: 20px;
@@ -135,4 +131,21 @@ footer {
   text-align: center;
   font-size: 14px;
   margin-top: 40px;
+}
+
+#references ul {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+#quote {
+  border-left: 4px solid #ccc;
+  padding-left: 40px;
+  font-style: italic;
+  color: #555;
+}
+
+.contents-panel ul.sublist {
+  list-style-type: circle;
+  padding-top: 10px;
 }
