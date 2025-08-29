@@ -1,40 +1,31 @@
-# OI 244 Practical Assignment Three
-- Student Number: 27030253
-- Practical Group: 1
-- Total Marks Available: 50
+# NASA Wiki Mockup
 
-## Assignment Instructions
+This project is a static website inspired by Wikipedia, focusing on NASA and the Apollo Program. It is designed for educational demonstration purposes and showcases a Wikipedia-style layout and content structure.
 
-1. Update this `README.md` file to include your student number and practical group on lines 2 and 3.
+## Features
+- Wikipedia-inspired design and navigation
+- Two main pages:
+  - `index.html`: Overview of NASA, its history, and key facts
+  - `Apollo.html`: Detailed information about the Apollo Program
+- Contents panel for easy navigation within each page
+- Info panels with quick facts and logos
+- References section with sources for further reading
+- Responsive layout using `styles.css`
 
-2. [5] This week's assignment focuses on CSS, but in order to style your content, you need content. To this end, create an `index.html` file and choose a Wikipedia article to use for content. Copy the title and first paragraph (or paragraphs, above the Table of Contents) into your `index.html` page and then format it with HTML tags so that it looks as close to the original as you can get it. Be sure to include a comment with a link/citation to the source. You need not replicate any of the links.
+## File Structure
+```
+├── Apollo.html        # Apollo Program article page
+├── index.html         # NASA main article page
+├── styles.css         # Shared stylesheet for both pages
+├── README.md          # Project documentation
+```
 
-3. [2] Create a CSS stylesheet with the name `style.css` and link to it as an external stylesheet in the source of your document. To do this, insert the below tag into the `head` of your document:
+## Usage
+1. Clone or download the repository.
+2. Open `index.html` or `Apollo.html` in your web browser to view the mockup.
+3. All content and images are for educational demonstration only.
 
-    ```html
-    <link rel="stylesheet" href="/style.css">
-    ```
-
-    Notice the similarities to linking the stylesheet and regular links and images.
-
-4. [10] Our objective is to make our page look a little like Wikipedia. To do this, we will need to write styles that bring the styling a little closer. You should write styles in the `style.css` file to try to mimic this design.
-
-    To do this, it is suggested you start by writing a style that changes the whole document. You _could_ do this for the `html` element, but it is more common to do this for the _body_ element.
-
-    Write a selector per the below snippet that will apply to the entire `body` element, and then apply some CSS properties to make it look more like Wikipedia.
-
-    ```css
-    body {
-        // Your properties go here
-    }
-    ```
-
-    It is recommended that you set the `font-face` to `Arial`, the `font-size` to `16px`.
-
-5. [5] Once you've done this, make some changes to the `h1` element styling as well. Consider making it a different colour, weight, or size. You don't need to stick with Wikipedia design too closely.
-
-6. [5] Now that you've done all of that, make sure that your page looks the way you'd like, create a second page on a related article from Wikipedia, and repeat the process in question 3 for the second page. Then link the same stylesheet as you did before and watch the magic happen. One stylesheet for the whole site makes for consistent design.
-
-7. [20] Make use of the CSS resources linked on SUNLearn and make your stylesheet more interesting. You can play with alignment, colour, sizes, etc. Consider the principles of good design that you learned about in Socio-Informatics 214. Add at least two additional rules (selector, property sets), so that there are at least four in total. Make sure, across all your rules, that you set at least 10 properties.
-
-8. [3] Do you need to be reminded to Save, Add, Commit, Push?
+## Credits & Licensing
+- NASA logos are used under non-commercial terms. See [NASA Brand Center](https://www.nasa.gov/nasa-brand-center/images-and-media/).
+- Text and layout inspired by Wikipedia. Content is available under the [Creative Commons Attribution-ShareAlike 4.0 License](https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License).
+- © 2025 MysticalScrolls
